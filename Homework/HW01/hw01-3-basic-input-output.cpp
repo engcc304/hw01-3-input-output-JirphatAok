@@ -10,6 +10,7 @@ int main () {
     printf("Fristname1: ");
     scanf("%s", Fristname1);
     printf("Lastname1 :");
+    scanf("%s", &Lastname1);
     printf(" %s %s TC, RNUTL, Chingmai, Thailand\n ",Fristname1, Lastname1);
 return 0 ;
 }

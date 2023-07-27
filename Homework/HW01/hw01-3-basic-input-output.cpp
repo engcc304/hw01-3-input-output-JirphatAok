@@ -6,7 +6,7 @@ int main () {
     scanf("%s", &Fristname);
     printf ("Lastname :");
     scanf("%s", &Lastname);
-    printf("%s %ss TC, RMUTL, Chingmai, Thailand\n ",Fristname, Lastname);
+    printf("%s %ss TC, RMUTL, Chiang Mai, Thailand\n ",Fristname, Lastname);
     // printf("Fristname1: ");
     // scanf("%s", &Fristname1);
     // printf("Lastname1 :");

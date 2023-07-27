@@ -1,15 +1,16 @@
-/*
-    เขียนโปรแกรมรับ "ชื่อ" จากผู้ใช้ และแสดงผลบนหน้าจอดังผลลัพธ์ด้านล่างต่อไปนี้ 
-    
-    Test case:
-        First Name: Aomsin
-        Last Name: AomMoney
-    Output:
-        Aomsin AomMoneys TC, RMUTL, Chiang Mai, Thailand
-
-    Test case:
-        First Name: ABC
-        Last Name: DEF
-    Output:
-        ABD DEFs TC, RMUTL, Chiang Mai, Thailand
-*/
+#include <stdio.h>
+int main () {
+    char Fristname[20], Lastname[20] ;
+    // char Fristname1[20], Lastname1[20] ;
+    printf("Fristname :");
+    scanf("%s", &Fristname);
+    printf ("Lastname :");
+    scanf("%s", &Lastname);
+    printf("%s %ss TC, RMUTL, Chiang Mai, Thailand\n ",Fristname, Lastname);
+    // printf("Fristname1: ");
+    // scanf("%s", &Fristname1);
+    // printf("Lastname1 :");
+    // scanf("%s", &Lastname1);
+    // printf(" %s %s TC, RNUTL, Chingmai, Thailand\n ",Fristname1, Lastname1);
+return 0 ;
+}
